@@ -1,0 +1,30 @@
+
+.preB, .nextB {
+    cursor: pointer;
+    top: 50%;
+    padding: 10px;
+    position: absolute;
+    color: white;
+}
+
+.nextB {
+    right: 0;
+}
+
+.preB:hover, .nextB:hover {
+    background-color:#6b6b6b;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #eba9a9;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.current, .dot:hover {
+    background-color: #f0662b;
+}

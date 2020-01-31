@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+
+<body>
+
+<div style="width: 80%;margin: auto; position: relative; ">
+
+  <div class="picture">
+    <img src="./img/01.jpg" style="width:100%">
+  </div>
+
+  <div class="picture">
+    <img src="./img/02.jpg" style="width:100%">
+  </div>
+
+  <div class="picture">
+    <img src="./img/03.jpg" style="width:100%">
+  </div>
+
+
+  <h1 class="preB" onclick="currentSlide(-1,'b') "><</h1>
+  <h1 class="nextB" onclick="currentSlide(1,'b')" >></h1>
+
+</div>
+
+
+<p>
+<div style="text-align:center">
+  <div class="dot" onclick="currentSlide(1,'d')"></div> 
+  <div class="dot" onclick="currentSlide(2,'d')"></div> 
+  <div class="dot" onclick="currentSlide(3,'d')"></div> 
+</div>
+</p>
+
+
+<script src="./js/slider.js"></script>
+
+</body>
+</html> 
